@@ -11,6 +11,9 @@ ___
      
 2. Enter the application folder and run in the command line
  ```npm install```
+ 
+ 3. Insall Angular cli globally 
+  ```npm install -g @angular/cli```
 
-3. Run the applicaiton by typing in the command line 
+4. Run the applicaiton by typing in the command line 
    ```ng serve```
