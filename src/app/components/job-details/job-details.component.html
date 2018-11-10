@@ -1,0 +1,21 @@
+<ul class="list-group ">
+  <li class="list-group-item active">Jobs Details</li>
+  <div *ngIf="showDetails">
+    <li class="list-group-item">
+      <strong>Job ID: </strong>{{ selectedJob.id }}
+    </li>
+    <li class="list-group-item">
+      <strong>City: </strong>{{ selectedJob.city }}
+    </li>
+    <li class="list-group-item">
+      <strong>description: </strong>{{ selectedJob.description }}
+    </li>
+    <li class="list-group-item">
+      <strong>End: </strong>{{ selectedJob.end_date }}
+    </li>
+    <li class="list-group-item">
+      <strong>Photo: </strong>
+      <img src="{{selectedJob.thumbnail}}" alt="The Photo is deleted" />
+    </li>
+  </div>
+</ul>
