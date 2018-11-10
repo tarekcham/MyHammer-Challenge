@@ -1,4 +1,4 @@
-# MyHammer-Chanllagne
+# MyHammer-Challenge
 ## Job platform application built using Angular
 
 ___
