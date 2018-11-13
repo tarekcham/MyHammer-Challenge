@@ -1,14 +1,14 @@
 <ul class="list-group ">
-  <li class="list-group-item active">Jobs Details</li>
+  <h3 class="list-group-item active">Jobs Details</h3>
   <div *ngIf="showDetails">
     <li class="list-group-item">
-      <strong>Job ID: </strong>{{ selectedJob.id }}
+      <strong>Job ID: </strong> {{ selectedJob.id }}
     </li>
     <li class="list-group-item">
       <strong>City: </strong>{{ selectedJob.city }}
     </li>
     <li class="list-group-item">
-      <strong>description: </strong>{{ selectedJob.description }}
+      <strong>Description: </strong>{{ selectedJob.description }}
     </li>
     <li class="list-group-item">
       <strong>End: </strong>{{ selectedJob.end_date }}
